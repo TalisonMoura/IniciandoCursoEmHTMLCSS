@@ -4,86 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .img-in-text{
-            width: 15px;
-            height: 15px;
-        }
-        .vermelho{
-            font-size: 20px;
-            color: red;
-        }
-    </style>
 </head>
 <body>
-    <h1 style="background: red;">Cabeçalho</h1>
-    <h1>Cabeçalho</h1>
-    <p><b>Lorem</b>, <strong>ipsum</strong> <i>dolor</i>  <em>sit</em> <a href="https://blog.betrybe.com/html/comentario-html/" target="_blank">amet</a> consectetur 
-        
-        <a href="https://blog.betrybe.com/html/comentario-html/" target="_blank">
-        <img class="img-in-text" src="https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2022/09/logo-trybe.png.webp" alt="Logo betrybe">
-    </a>
-        
-        <del>vermelho</del> <ins>azul</ins>, <s>adipisicing</s> elit. Voluptatibus voluptates <small>dolorem</small> , mais e propósito. coisa é regra jacaré não que most mulher a não for elefante pão nada contigo. Há esteja hora. nem de os acidentes. do outra O contrário, <code>console.log</code>. uma que outra é era importa. respeito, para gigante que play pra o sem linha azul?</p> 
-        
-        <hr>
+    <header>
+        <h1>
+            <a href="#">Home</a>
+        </h1>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia laborum autem assumenda qui aliquid recusandae facere! Explicabo, molestiae? Fugit modi dicta cupiditate ex, dolorum doloribus a deserunt aspernatur rem vel.</P>
+        <div>Alinhar algo</div>
+    </header>
+    
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 2</a></li>
+                <li><a href="#">Texto 3</a></li>
+                <li><a href="#">Texto 4</a></li>
+                <li><a href="#">Texto 5</a></li>
+            </ul>
+        </nav>
+    </aside>
 
-        <p>cobrador… vida. não porque bois ,possimus in assumenda 2<sup>2</sup> reiciendis soluta expedita quod aperiam H<sub>2</sub>O tenetur.<br>        <q cite="https://blog.betrybe.com/html/comentario-html/">Mollitia</q>, iure illo. Rerum iure laborum harum autem voluptas eaque.
-    </p>
-    <blockquote cite="https://blog.betrybe.com/html/comentario-html/">Aqui sim eu estou fazendo um bloco de citação</blockquote>
-    <pre>
-<code>namespace ExercicioOO02_Leitura {
-    internal <span class="vermelho">class Program</span> {
-        static void Main(string[] args) {
-            CultureInfo ci = CultureInfo.InvariantCulture;
-        
-            Funcionario f1, f2;
-            f1 = new Funcionario();
-            f2 = new Funcionario();
-        
-            Console.WriteLine("Dados do primeiro funcionário:");
-            Console.Write("Nome: ");
-            f1.Name = Console.ReadLine();
-            Console.Write("Salário: ");
-            f1.Salary = double.Parse(Console.ReadLine(), ci);
-                    
-            Console.WriteLine("Dados do segundo funcionário: ");
-            Console.Write("Nome: ");
-            f2.Name = Console.ReadLine();
-            Console.Write("Salário: ");
-            f2.Salary = double.Parse(Console.ReadLine(), ci);   
-        
-            double media = (f1.Salary + f2.Salary) / 2;
-            Console.WriteLine("Salário médio = " + media.ToString("F2", ci));
-        
-            }
-        }
-    }
-        </code>
-    </pre>
+    <section>
+        <header>
+            <h2>Roupas Femininas</h2>
+        </header>
+        <article>
+            <h3>Heading 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse suscipit animi dicta nobis fuga dolore quibusdam, aliquam nisi. Nobis voluptas est iure veritatis, numquam qui. Quae, eos sequi. A.
+            </p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse suscipit animi dicta nobis fuga dolore quibusdam, aliquam nisi. Nobis voluptas est iure veritatis, numquam qui. Quae, eos sequi. A.
+            </p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse suscipit animi dicta nobis fuga dolore quibusdam, aliquam nisi. Nobis voluptas est iure veritatis, numquam qui. Quae, eos sequi. A.
+            </p>
+        </article>
+    </section>
+    <article>
+        <h2>Heading</h2>
+        <section>
 
+        </section>
+    </article>
+    <section>
+        <header>
+            <h2>Roupas Masculinas</h2>
+        </header>
+        <article>
+            <h3>Heading 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse suscipit animi dicta nobis fuga dolore quibusdam, aliquam nisi. Nobis voluptas est iure veritatis, numquam qui. Quae, eos sequi. A.
+            </p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse suscipit animi dicta nobis fuga dolore quibusdam, aliquam nisi. Nobis voluptas est iure veritatis, numquam qui. Quae, eos sequi. A.
+            </p>
+        </article>
+        <article>
+            <h3>Heading 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse suscipit animi dicta nobis fuga dolore quibusdam, aliquam nisi. Nobis voluptas est iure veritatis, numquam qui. Quae, eos sequi. A.
+            </p>
+        </article>
+    </section>
+    <footer>
+        Meu Endereço
+    </footer>
 </body>
 </html>
-<!-- <b>  tag bold, para deixar um texto em negrito -->
-
-<!-- <strong></strong> tag strong também deixa o texto em negrito, entretanto ele é uma tag semântica, possui um significado de entonação de texto semelhante o simbolo de exclamação.-->
-
-<!-- <i></i> para transformar o texto ou uma palavra em formato italico--> 
-
-<!--<em></em>  tag em deixa o texto em itálico, e possui um significado semântico, no qual ela da ênfase para uma palavra.-->
-
-<!-- <a href=""></a> - tag a é para inserirmos um link ou uma imagem--> 
-
-<!-- target='_blank' é um css que apos inserir o link, te redireciona para uma nova guia ou aba no navegador --> 
-
-<!-- <img src="ling da imagem ou arquivo local" alt="texto alternativo para imagem, segue uma lógica semântica" width="50" height="44" colocar largura e altura na imagem> -->
-
-<!-- <del> é uma tag semântica que faz mensão a uma errata, sublinhando a palavra e <ins> sublinha como underscore ou underline -->
-
-<!-- <u> é uma tag física específica para sublinhar uma palavra -->
-
-<!-- <small> tag para deixar o texto ou palavra menor -->
-
-<!-- <br> tag para fazer quebra de linha e não possui corpo-->
-
-<!-- <div> é uma tag em padrão de bloco e <span> é uma tag em formato in-line-->
