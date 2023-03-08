@@ -6,46 +6,38 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
 </head>
-<!-- Tag para linhas ultilizamos a tr e
-para colunas td ou th-->
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet maiores velit architecto ut! Quas molestias, similique maxime ducimus pariatur ex, distinctio facere ad cum ea ipsa libero odio. Eos, accusantium.</p>
-    <div class="responsive-table">
-        <table>
-            <caption>Uma descrição para tabela</caption>
-            <thead>
-                <tr>
-                    <th>Titulo 1</th>
-                    <th>Titulo 2</th>
-                    <th>Titulo 3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Corpo 1</td>
-                    <td>Corpo 2</td>
-                    <td>Corpo 3</td>
-                </tr>
-                <tr>
-                    <td colspan="2" >Here i am</td>
-                    <td>Corpo 3</td>
-                </tr>
-                <tr>
-                    <td>Corpo 1</td>
-                    <td>Corpo 2</td>
-                    <td>Corpo 3</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="2" rowspan="2"></td>
-                    <td rowspan="">Total:</td>
-                </tr>
-                <tr>
-                    <td>R$555</td>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+    <p>O Meu Formulário</p>
+    <p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>    
+    </p>
+    <p>
+        <label for="dev1">Sou um dev1</label>
+        <input type="checkbox" id="dev1" name="dev1"value="sim"><br>  
+        <label for="dev2">Sou um dev2</label>
+        <input type="checkbox" id="dev2" name="dev2" value="sim"><br>
+        <label for="dev1">Sou um dev3</label>
+        <input type="checkbox" id="dev3" name="dev3" value="sim">  
+    </p>
+    <p>
+        Gênero:<br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino" name="genero"value="feminino"><br>  
+        
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" 
+        name="genero" value="masculino"><br>
+        
+        <label for="outro">Outro</label>
+        <input type="radio" id="outro" name="genero" 
+        value="outro">  
+    </p>
+    <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </p>
+    </form>
 </body>
 </html>
