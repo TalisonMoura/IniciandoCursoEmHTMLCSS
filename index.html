@@ -3,62 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        nav{
-            background-color: red;
-        }
-        body nav ul li a{
-            color: #ffffff;
-            text-decoration: none;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            padding: 10px 20px;
-            display: block;
-            text-transform: uppercase;
-        }
-        nav a:hover{
-            background: rgba(0, 0, 0, 0.3);
-        }
-        nav{
-            display: flex;
-            align-items: center;
-        }
-        nav ul {
-            display: flex;
-            list-style: none;
-            background-color: red;
-        }
-    </style>
 </head>
+<!-- Tag para linhas ultilizamos a tr e
+para colunas td ou th-->
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-        </ul>
-    </nav>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-    <ol type="I">
-        <li>Item 2</li>
-        <li>Item 1</li>
-        <li>Item 3</li>
-    </ol>
-    <dl>
-        <dt>Coffee</dt>
-        <dd>Wark Drink</dd>
-        <dt>Coffee</dt>
-        <dd>Wark Drink</dd>
-        <dt>Coffee</dt>
-        <dd>Wark Drink</dd>
-    </dl>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet maiores velit architecto ut! Quas molestias, similique maxime ducimus pariatur ex, distinctio facere ad cum ea ipsa libero odio. Eos, accusantium.</p>
+    <div class="responsive-table">
+        <table>
+            <caption>Uma descrição para tabela</caption>
+            <thead>
+                <tr>
+                    <th>Titulo 1</th>
+                    <th>Titulo 2</th>
+                    <th>Titulo 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2" >Here i am</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td rowspan="">Total:</td>
+                </tr>
+                <tr>
+                    <td>R$555</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>

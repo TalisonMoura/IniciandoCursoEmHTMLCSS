@@ -1,0 +1,29 @@
+table td, table th{
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    width: 800%;
+}
+table caption{
+    caption-side: bottom;
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0;
+}
+tfoot td, table th{
+    background-color: #ddd;
+}
+tfoot{
+    font-style: italic;
+}
+.teste{
+    background-position: center;
+}
+.responsive-table{
+    max-width: 100%;
+    overflow-x: auto;
+}
