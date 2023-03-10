@@ -1,0 +1,31 @@
+/* MUDANDO ESTILO APARTIR DE UMA CLASSE */
+.color-red{
+    color: red;
+}
+/* MUDANDO ESTILO APARTIR DE UMA CASSE E UMA TAG */
+.main-content h2{
+    font-style: italic;
+}
+/* MUDANDO ESTILO APARTIR DE CLASSES 
+.main-content .heading{
+    color: red;
+}*/
+
+/* MUDANDO UM ESTILO APARTIR DE CLASSES E TAG*/
+.main-content h2.heading{
+    color: red;
+}
+div{
+    color: initial;
+    margin-left: 20px;
+}
+
+/* selecionando todas as filhas
+.pai > .filha{
+    color: red;
+}*/
+
+/* Selecionando tudo que é filha dentro de uma hierarquia pai*/
+.pai > .filha > .filha{
+    color: red;
+}
