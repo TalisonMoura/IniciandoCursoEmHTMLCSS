@@ -63,6 +63,49 @@
         <input type="number" id="number" name="number" placeholder="Digite um número" min="10" max="50" required>    
     </p>
     <p>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite uma senha" required>    
+    </p>
+    <p>
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" list="tickmarks">    
+        <datalist id="tickmarks">
+            <option value="0" label="0%"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50" label="50%"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100" label="100%"></option>
+        </datalist>
+    </p>
+    <p>
+        <label for="url">Sua Url:</label>
+        <input type="url" id="url" name="url" placeholder="Digite uma URL" required>    
+    </p>
+    <p>
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" placeholder="search" required>    
+    </p>
+    <p>
+        <label for="select">Selecione alguma opção:</label>
+        <select id="select" name="select">
+            <option value="qualquer 1" label="Valor 1"></option>
+            <option value="qualquer 2" label="Valor 2"></option>
+            <option value="qualquer 3" label="Valor 3"></option>
+            <option value="qualquer 4" label="Valor 4"></option>
+            <option value="qualquer 5" label="Valor 5"></option>
+        </select>
+    </p>
+    <p>
+        <label for="textarea">Textarea:</label>
+        <textarea id="textarea" name="textarea" placeholder="textarea" required></textarea>
+    </p>
+    <p>
         <button type="reset">Reset</button>
         <button type="submit">Enviar</button>
     </p>
