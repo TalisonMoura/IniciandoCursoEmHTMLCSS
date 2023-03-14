@@ -1,31 +1,15 @@
-/* MUDANDO ESTILO APARTIR DE UMA CLASSE */
-.color-red{
-    color: red;
-}
-/* MUDANDO ESTILO APARTIR DE UMA CASSE E UMA TAG */
-.main-content h2{
-    font-style: italic;
-}
-/* MUDANDO ESTILO APARTIR DE CLASSES 
-.main-content .heading{
-    color: red;
-}*/
-
-/* MUDANDO UM ESTILO APARTIR DE CLASSES E TAG*/
-.main-content h2.heading{
-    color: red;
-}
-div{
-    color: initial;
-    margin-left: 20px;
+ul li:nth-child(even) {
+    background-color: rebeccapurple;
 }
 
-/* selecionando todas as filhas
-.pai > .filha{
-    color: red;
-}*/
+ul li:nth-child(odd) {
+    background-color: darkturquoise;
+}
 
-/* Selecionando tudo que é filha dentro de uma hierarquia pai*/
-.pai > .filha > .filha{
-    color: red;
+ul li:nth-child(3n) {
+    background-color: greenyellow;
+}
+
+ul li:nth-child(3n + 5) {
+    background-color: darkorange;
 }
