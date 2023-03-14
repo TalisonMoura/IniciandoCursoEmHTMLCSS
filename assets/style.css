@@ -1,15 +1,17 @@
-ul li:nth-child(even) {
-    background-color: rebeccapurple;
+/*
+ID, CLASSES,ATRIBUTOS E PSEUDO-CLASSES // ELEMENTOS E PSEUDO-ELEMENTOS
+ESPECIFICIDADE
+EMPATE
+STYLE
+!IMPORTANT ****
+*/
+
+#texto{
+    font-family: sans-serif;
+    color: red;
+    font-size: 70px;
 }
 
-ul li:nth-child(odd) {
-    background-color: darkturquoise;
-}
-
-ul li:nth-child(3n) {
-    background-color: greenyellow;
-}
-
-ul li:nth-child(3n + 5) {
-    background-color: darkorange;
+p{
+    font-size: initial;
 }
