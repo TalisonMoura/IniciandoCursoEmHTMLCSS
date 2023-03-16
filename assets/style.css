@@ -6,16 +6,35 @@
 
 .flex-container{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
-    align-content: space-between;
+    align-items: flex-start;
+    flex-flow: row nowwrap;
     background: yellow;
-    height: 500px;
-    align-items: ;
+    height: 800px;
 }
 .flex-item{
+    /*flex-grow: 1;
+    flex-basis: 320px;
+    flex-shrink: 1;*/
+    /* flex: 1 1 320px; grow/shink/basis --> forma curta */
     width: 100%;
+    color: #fff;
     background: red;
-    margin: 10px;
+}
+/*
+.flex-item:nth-child(2){
+    align-self: flex-end;
+    margin-bottom: 300px;
+}
+.flex-item:nth-child(3){
+    align-self: center;
+    background-color: turquoise;
+
+}
+.flex-item:nth-child(4){
+    align-self: stretch;
+}*/
+
+.flex-item:nth-child(1){
+    order: ;
 }
