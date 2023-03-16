@@ -3,38 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.flex-container{
+body{
+    font-size: 24px;
+}
+P {
+    margin: 0 0 24px;
+}
+.two-columns{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-flow: row nowwrap;
-    background: yellow;
-    height: 800px;
 }
-.flex-item{
-    /*flex-grow: 1;
-    flex-basis: 320px;
-    flex-shrink: 1;*/
-    /* flex: 1 1 320px; grow/shink/basis --> forma curta */
-    width: 100%;
-    color: #fff;
-    background: red;
+.two-columns .col{
+    display: flex;
+    flex-direction: column;
+    background: lawngreen;
+    margin: 15px;
+    padding: 30px;
+} 
+.gallery{
+    flex-flow: row wrap;
+    display: flex;
 }
-/*
-.flex-item:nth-child(2){
-    align-self: flex-end;
-    margin-bottom: 300px;
-}
-.flex-item:nth-child(3){
-    align-self: center;
-    background-color: turquoise;
-
-}
-.flex-item:nth-child(4){
-    align-self: stretch;
-}*/
-
-.flex-item:nth-child(1){
-    order: ;
+.gallery .img {
+    flex: 1 0 20%;
+    height: 50px;
+    margin: 15px;
+    background: rgb(0, 0, 255);
 }
